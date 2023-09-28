@@ -5,7 +5,14 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}',
     './App.jsx'
   ],
+  darkMode: 'class',
   theme: {
+    screens: {
+      nophone: '376px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px'
+    },
     extend: {
       // ### Primary
       colors: {
@@ -30,11 +37,14 @@ export default {
         VeryDarkGrayish_Blue: 'hsl(237, 14%, 26%)'
       },
       backgroundImage: {
-        'img-mobile-dark': "url('./assets/bg-mobile-dark.svg')",
-        'img-desktop-dark': "url('./assets/images/bg-desktop-dark.svg')",
-        'img-mobile-light': "url('./assets/bg-mobile-light.svg')",
-        'img-desktop-light': "url('./assets/images/bg-desktop-light.svg')"
+        'img-mobile-dark': "url('./src/assets/bg-mobile-dark.jpg')",
+        'img-desktop-dark': "url('src/assets/bg-desktop-dark.jpg')",
+        'img-mobile-light': "url('./src/assets/bg-mobile-light.jpg')",
+        'img-desktop-light': "url('src/assets/bg-desktop-light.jpg')"
       }
+    },
+    fontFamily: {
+      Josefin: ['Josefin Sans']
     }
   },
   plugins: []
