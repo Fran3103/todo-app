@@ -23,7 +23,7 @@ function Form (props) {
   return (
     <div className='w-full px-7 m-auto -mt-16 '>
       <form className='w-full m-auto flex justify-center items-center' onSubmit={handleSubmit}>
-        <input type='text' name='todo' className='w-full h-12 px-5 rounded-md shadow-lg bg-VeryLightGray dark:bg-VeryDarkGrayish_Blue text-VeryDarkGrayishBlue' placeholder='Create a new todo ' onChange={change} />
+        <input type='text' name='todo' className='w-full h-12 px-5 rounded-md shadow-xl bg-VeryLightGray dark:bg-VeryDarkGrayish_Blue text-VeryDarkGrayishBlue' placeholder='Create a new todo ' onChange={change} />
       </form>
     </div>
   )
