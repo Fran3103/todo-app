@@ -63,7 +63,7 @@ const ListTodo = () => {
   return (
     <>
       <Form Tareanueva={agregartarea} />
-      <div className='w-full p-6 flex flex-col justify-beetween items-start   bg-VeryLightGrayishBlue  '>
+      <div className='w-full p-6 flex flex-col justify-beetween items-start   bg-VeryLightGrayishBlue max-w-[800px] m-auto bg-transparent  '>
         {
           tareas.map((tarea) =>
           <Tareas
@@ -88,7 +88,7 @@ const ListTodo = () => {
         <p onClick={ClearCompleted} className='cursor-pointer md:block hidden '>Clear Completed</p>
     </div>
       </div>
-      <div className='flex w-full justify-center items-center p-4 gap-3 text-center text-slate-700 dark:bg-VeryDarkGrayish_Blue dark:text-VeryLightGray '>
+      <div className='flex w-full justify-center items-center p-4 gap-3 text-center text-slate-700 bg-transparent dark:text-VeryLightGray  '>
         <a href='https://github.com/Fran3103/todo-app.git' target='_Blank' rel='noreferrer noopener'>GitHub</a>
         <a href='https://www.linkedin.com/in/franco-aguirre-24855012a' target='_Blank' rel='noreferrer noopener'>Franco Aguirre</a>
       </div>

@@ -5,7 +5,7 @@ import ListTodo from './src/Components/ListTodo'
 
 const App = () => {
   return (
-    <div className='dark:bg-VeryDarkDesaturatedBlue  bg-VeryLightGray max-w-[1220px] m-auto h-screen '>
+    <div className='dark:bg-VeryDarkDesaturatedBlue  bg-VeryLightGray w-full max-w-[1440px] m-auto h-screen '>
 
       <Header />
       <ListTodo />
